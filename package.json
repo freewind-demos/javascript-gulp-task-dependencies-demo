@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "gulp"
+    "start": "rm -rf build && gulp"
   },
   "devDependencies": {
     "gulp": "4.0.2",

@@ -1,7 +1,7 @@
-JavaScript Gulp Demo
+JavaScript Gulp Task Dependencies Demo
 ====================
 
-Gulp是JavaScript中一个构建工具，特点是通过pipe将各功能串起来，不像Grunt那样是基于配置。
+gulp4.0似乎推荐每个task都是async，否则可能会报 "Did you forget to signal async completion?" 错误
 
 ```
 npm install
