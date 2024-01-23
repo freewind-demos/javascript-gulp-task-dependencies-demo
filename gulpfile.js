@@ -8,7 +8,7 @@ gulp.task('hello1', async () => {
 
 gulp.task('main', async () => {
     console.log("### main")
-    return gulp.src('hello.js')
+    return gulp.src('src/hello.js')
         .pipe(minify())
         .pipe(gulp.dest('build/'))
 })
